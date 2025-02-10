@@ -3,9 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Website</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+       
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif; 
+        }
+        body {
+            background: url("pexels-foysal-ahmed-2102283-5548042.jpg") no-repeat center center fixed;
+            background-size: cover;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5px 10px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .logo {
+            width: 150px; 
+            height: 150px;
+            border-radius: 10px;
+            opacity: 0.8; 
+            order: -1; 
+        }
+        nav {
+            display: flex;
+            gap: 50px; 
+            margin-left: 10px; 
+        }
+        nav a {
+            color: #ffffff; 
+            text-decoration: none;
+            font-size: 22px;
+            font-weight: 600;
+            transition: color 0.3s;
+            margin-right: 20px;
+        }
+        nav a:hover {
+            color: #fff6f6bb; 
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>MESHA PAGE</h1>
+    <header>
+        <img src="Logo.png" alt="Logo" class="logo">
+        <nav>
+            <a href="home.html">TEAM</a>
+            <a href="team.html">ABOUT US</a>
+        </nav>
+    </header>
 </body>
 </html>
