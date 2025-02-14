@@ -2,7 +2,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #E7D2CC ;
+  background-color: #eed6d3;
+  background-size: cover;
+  background-position: center top;
   color: #333;
   line-height: 1.6;
 }
@@ -38,19 +40,19 @@ body {
 }
 
 .member-details h3 {
-  font-size: 1.5em;
+  font-size: 1.8em;
   margin-bottom: 5px;
   color: black;
 }
 
 .member-details p {
-  font-size: 1em;
+  font-size: 16.5px;
   color: black;
   text-align: justify;
 }
 
 footer {
-  background-color: #868B8E;
+  background-color: #b9b7bd;
   color: black;
   text-align: center;
   padding: 30px;
@@ -66,7 +68,7 @@ footer {
 }
 
 .social-links a:hover {
-  color: white;
+  text-decoration: 2px underline;
 }
 
 @media (max-width: 768px) {
