@@ -34,7 +34,7 @@ body {
   #introCarousel,
   .carousel-inner,
   .carousel-item {
-    height: 90vh;
+    height: 85vh;
   }
   .carousel-item {
     background-size: cover;
